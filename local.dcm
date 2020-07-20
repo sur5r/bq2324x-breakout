@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP bq24230
+D USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC
+K usb, charger, lithium ion, power
+F https://www.ti.com/lit/gpn/bq24230
+$ENDCMP
+#
+$CMP bq24232
+D USB-Friendly Lithium-Ion Battery Charger And Power-Path Management IC
+K usb, charger, lithium ion, power
+F https://www.ti.com/lit/gpn/bq24232
+$ENDCMP
+#
+#End Doc Library
