@@ -1,4 +1,4 @@
-update=2019 July 21, Sunday 10:41:03
+update=Fr 24 Jul 2020 19:09:49 CEST
 version=1
 last_client=kicad
 [general]
@@ -30,7 +30,7 @@ CopperLayerCount=2
 BoardThickness=1.6002
 AllowMicroVias=0
 AllowBlindVias=0
-RequireCourtyardDefinitions=0
+RequireCourtyardDefinitions=1
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.09999999999999999
 MinViaDiameter=0.45
@@ -38,10 +38,12 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0
 MinMicroViaDrill=0
 MinHoleToHole=0.2
-TrackWidth1=0.25
+TrackWidth1=0.2
 TrackWidth2=0.1
 TrackWidth3=0.2
-TrackWidth4=0.5
+TrackWidth4=0.25
+TrackWidth5=0.3
+TrackWidth6=0.5
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.45
@@ -236,7 +238,7 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
@@ -244,8 +246,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.25
-TrackWidth=0.25
+Clearance=0.2
+TrackWidth=0.2
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.8
@@ -254,6 +256,17 @@ dPairWidth=0.25
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=GND
+Clearance=0.1
+TrackWidth=0.25
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.8
+uViaDrill=0.4
+dPairWidth=0.25
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Min
 Clearance=0.1
 TrackWidth=0.1
